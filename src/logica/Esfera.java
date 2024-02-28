@@ -7,7 +7,7 @@ public class Esfera extends Circulo implements Cuerpo{
 	}
 	@Override
 	public double volumen() {
-		return 4 * Math.PI * Math.pow(valor1, 3);
+		return 4 * Math.PI * Math.pow(valor1, 3)/3;
 	}
 
 }
