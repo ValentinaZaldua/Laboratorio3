@@ -6,9 +6,9 @@ public class Circulo extends Figura {
 		super(valor1);
 	}
 	
-	public Circulo() {
+	/*public Circulo() {
 		super();
-	}
+	}*/
 
 	@Override
 	public double area() {

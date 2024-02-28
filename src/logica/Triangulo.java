@@ -1,7 +1,7 @@
 package logica;
 
 public class Triangulo extends Figura {
-	private double valor2;
+	protected double valor2;
 
 	public double getValor2() {
 		return valor2;
@@ -16,10 +16,10 @@ public class Triangulo extends Figura {
 		this.valor2 = valor2;
 	}
 	
-	public Triangulo() {
+	/*public Triangulo() {
 		super();
 		this.valor2 = 0;
-	}
+	}*/
 
 	@Override
 	public double area() {

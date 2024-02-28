@@ -6,9 +6,9 @@ public class Cuadrado extends Figura {
 		super(valor1);
 	}
 	
-	public Cuadrado() {
+	/*public Cuadrado() {
 		super();
-	}
+	}*/
 
 	@Override
 	public double area() {
