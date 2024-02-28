@@ -31,3 +31,5 @@ public class Paralelepipedo extends Cubo implements Cuerpo{
 		return valor1 * valor2 * valor3;
 	}
 }
+
+// V = a*b*c
